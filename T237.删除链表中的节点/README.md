@@ -1,7 +1,7 @@
 请编写一个函数，使其可以删除某个链表中给定的（非末尾）节点，你将只被给定要求被删除的节点。
 
 现有一个链表 -- head = [4,5,1,9]，它可以表示为:<br>
-![1](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/237_example.png)<br>
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/01/19/237_example.png)<br>
 示例 1:
 
 输入: head = [4,5,1,9], node = 5
@@ -22,8 +22,9 @@
 不要从你的函数中返回任何结果。
 
 <br>
-题解：<br>
-![2](https://github.com/457251763/LeetCode/blob/master/image/T237.png)
+题解：
+
+![](https://github.com/457251763/LeetCode/blob/master/image/T237.png)
 
 
 
