@@ -26,22 +26,8 @@
 
 ![](https://github.com/457251763/LeetCode/blob/master/image/T237.png)
 如图，既然无法访问给定节点的父节点，那么就把之后的节点前移覆盖掉给定的节点，可以完成链表的删除。
-Code：
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
-class Solution {
-public:
-    void deleteNode(ListNode* node) {
-        node->val=node->next->val;
-        node->next = node->next->next;
-    }
-};
+Code：<br>
+>class Solution {<br>public:    <br>void deleteNode(ListNode* node) {        <br>node->val=node->next->val;        <br>node->next = node->next->next;    <br>}<br>};
 
 
 
